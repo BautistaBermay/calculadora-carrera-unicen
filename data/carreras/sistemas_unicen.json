@@ -1,0 +1,290 @@
+{
+  "carrera": "Ingeniería de Sistemas - UNICEN",
+  "plan_año":2023, 
+  
+  "materias": [
+    {
+      "id": "Prog1",
+      "nombre": "Introducción a la Programación I*",
+      "dictado": 1,
+      "correlativas_cursada": [],
+      "correlativas_final": []
+
+    },
+    {
+      "id": "Algebra",
+      "nombre": "Introduccion al Algebra *",
+      "dictado": 1,
+      "correlativas_cursada": [],
+      "correlativas_final": []
+
+    },
+    {
+      "id": "ISI",
+      "nombre": "Introduccion a los Sistemas Informáticos *",
+      "dictado": 1,
+      "correlativas_cursada": [],
+      "correlativas_final": []
+
+    },
+      {
+        "id": "Ingles",
+        "nombre": "Ingles *",
+        "dictado": 1,
+        "correlativas_cursada": [],
+        "correlativas_final": []
+  
+      },
+      {
+        "id": "Diseño",
+        "nombre": "Diseño Lógico *",
+        "dictado": 2,
+        "correlativas_cursada": ["ISI","Algebra"],
+        "correlativas_final": []
+  
+      }, 
+      {
+        "id": "Prog2",
+        "nombre": "Introducción a la Programación II*",
+        "dictado": 2,
+        "correlativas_cursada": ["Prog1"],
+        "correlativas_final": []
+  
+      },
+       {
+        "id": "Ciencias1",
+        "nombre": "Lenguajes formales y autómatas",
+        "dictado": 2,
+        "correlativas_cursada": ["Algebra"],
+        "correlativas_final": []
+  
+      },
+        {
+          "id": "Calculo1",
+          "nombre": "Cálculo I *",
+          "dictado": 2,
+          "correlativas_cursada": [],
+          "correlativas_final": []
+    
+        },
+        {
+            "id": "Arqui1",
+            "nombre": "Arquitectura de Computadoras I *",
+            "dictado": 1,
+            "correlativas_cursada": ["Algebra","ISI","Diseño"],
+            "correlativas_final": []
+      
+          },
+          {
+            "id": "Ayda1",
+            "nombre": "Análisis y Diseño de Algoritmos I *",
+            "dictado": 1,
+            "correlativas_cursada": ["Prog1","Prog2","Algebra","Calculo1"],
+            "correlativas_final": []
+      
+          },
+          {
+            "id": "Lineal",
+            "nombre": "Algebra Lineal",
+            "dictado": 1,
+            "correlativas_cursada": ["Algebra"],
+            "correlativas_final": []
+      
+          },{
+              "id": "POO",
+              "nombre": "Programación Orientada a Objetos *",
+              "dictado": 1,
+              "correlativas_cursada": ["Prog1","Prog2"],
+              "correlativas_final": []
+        
+            },
+
+            {
+              "id": "Redes1",
+              "nombre": "Redes de computadoras I *",
+              "dictado": 2,
+              "correlativas_cursada": ["Prog1","Prog2","ISI"],
+              "correlativas_final": []
+        
+            },
+            {
+              "id": "Calculo2",
+              "nombre": "Calculo II",
+              "dictado": 2,
+              "correlativas_cursada": ["Calculo1"],
+              "correlativas_final": []
+            },
+            {
+              "id": "Ayda2",
+              "nombre": "Análisis y Diseño de Algoritmos II *",
+              "dictado": 2,
+              "correlativas_cursada": ["Ayda1","Calculo1","Algebra","Prog1","Prog2"],
+              "correlativas_final": []
+        
+            },
+            {
+              "id": "Metodologias",
+              "nombre": "Metodologias de Desarrollo de Software *",
+              "dictado": 2,
+              "correlativas_cursada": ["Prog1","Prog2","POO"],
+              "correlativas_final": []
+        
+            },
+              {
+                "id": "Fisica1",
+                "nombre": "Fisica I",
+                "dictado": 1,
+                "correlativas_cursada": ["Algebra","Calculo1","Lineal"],
+                "correlativas_final": []
+          
+              },
+              {
+                "id": "Bases1",
+                "nombre": "Base de Datos I *",
+                "dictado": 1,
+                "correlativas_cursada": ["Prog1","Prog2","Algebra","Calculo1","Ayda1"],
+                "correlativas_final": []
+          
+              },
+               {
+                "id": "Lenguajes",
+                "nombre": "Lenguajes y Paradigmas",
+                "dictado": 1,
+                "correlativas_cursada": ["Algebra","ISI","Diseño","Ciencias1","Arqui1"],
+                "correlativas_final": []
+          
+              },
+              {
+                "id": "SistemasOperativos",
+                "nombre": "Sistemas Operativos *",
+                "dictado": 1,
+                "correlativas_cursada": ["Prog1","Prog2","ISI","Diseño","Arqui1","Algebra","Calculo1","Ayda1","Ayda2"],
+                "correlativas_final": []
+          
+              },
+              {
+                 "id": "Bases2",
+                "nombre": "Base de Datos II",
+                "dictado":2,
+                "correlativas_cursada": ["Prog1","Algebra","Prog2","Calculo1","Ayda1","Ayda2","Bases1"],
+                "correlativas_final": []
+          
+              },
+              {
+                 "id": "Proba",
+                "nombre": "Probabilidad y Estadística",
+                "dictado": 2,
+                "correlativas_cursada": ["Calculo1"],
+                "correlativas_final": []
+          
+              },
+              {
+                 "id": "WEB",
+                "nombre": "Programación WEB *",
+                "dictado": 2,
+                "correlativas_cursada": ["Prog1","Algebra","ISI","Diseño","Prog2","Calculo1","Ayda1","Ayda2","POO","Metodologias","Arqui1","Bases1","SistemasOperativos"],
+                "correlativas_final": []
+          
+              },
+              {
+                 "id": "IngenieriaSoftware",
+                "nombre": "Ingenieria de Software I",
+                "dictado": 2,
+                "correlativas_cursada": ["Prog1","Prog2","Algebra","Calculo1","Ayda1","Ayda2","POO","Metodologias","Arqui1","Bases1","SistemasOperativos","ISI","Diseño"],
+                "correlativas_final": []
+          
+              },
+              {
+                  "id": "Organizacion",
+                  "nombre": "Organización y gestión empresarial",
+                  "dictado": 1,
+                  "correlativas_cursada": ["Prog1","Prog2","Calculo1","POO","Metodologias","Proba"], 
+                  "correlativas_final": []
+              },
+              {
+                "id": "Teoria",
+                  "nombre": "Teoría de la Información",
+                  "dictado": 1,
+                  "correlativas_cursada": ["Proba","Algebra","Calculo1","Lineal"], 
+                  "correlativas_final": []
+              },
+              {
+                "id": "Redes2",
+                  "nombre": "Redes de computadoras II",
+                  "dictado": 1,
+                  "correlativas_cursada": ["Prog1","Prog2","ISI","Redes1"], 
+                  "correlativas_final": []
+              },
+              {
+                "id": "Fisica2",
+                  "nombre": "Fisica II",
+                  "dictado": 1,
+                  "correlativas_cursada": ["Algebra","Calculo1","Lineal","Fisica1","Calculo2"],
+                  "correlativas_final": []
+              },
+              {
+                "id": "CalidadSoftware",
+                "nombre": "Calidad de Software",
+                "dictado": 2,
+                "correlativas_cursada": ["Prog1","Algebra","ISI","Diseño","Prog2","Calculo1","Arqui1","Ayda1","POO","Ayda2","Metodologias","SistemasOperativos","Bases1","IngenieriaSoftware"],
+                "correlativas_final": []
+              },
+              {
+                "id": "Arqui2",
+                "nombre": "Arquitectura de Computadoras II",
+                "dictado": 2,
+                "correlativas_cursada": ["Algebra","ISI","Diseño","Arqui1"],
+                "correlativas_final": []
+              },
+              {
+                "id": "Fundamentos",
+                "nombre": "Fundamentos de la Ciencia de Datos",
+                "dictado": 2,
+                "correlativas_cursada": ["Prog1","Algebra","Prog2","Calculo1","Ayda1","Lineal","Bases1","Proba"],
+                "correlativas_final": []
+              },
+              {
+                "id": "Compiladores",
+                "nombre": "Compiladores e Intérpretes",
+                "dictado": 2,
+                "correlativas_cursada": ["Algebra","ISI","Diseño","Ciencias1","Arqui1","Lenguajes"],
+                "correlativas_final": []
+              },
+              {
+                "id": "IngenieriaSoftware2",
+                "nombre": "Ingenieria de Software II",
+                "dictado": 1,
+                "correlativas_cursada": ["Prog1","Algebra","ISI","Diseño","Prog2","Calculo1","Arqui1","Ayda1","POO","Ayda2","Metodologias","SistemasOperativos","Bases1","IngenieriaSoftware","CalidadSoftware"],
+                "correlativas_final": []
+              },
+              {
+                "id": "Ciberseguridad",
+                "nombre": "Ciberseguridad",
+                "dictado": 1,
+                "correlativas_cursada": ["Prog1","Algebra","ISI","Prog2","Calculo1","Ayda1","Redes1","Ayda2","Proba"],
+                "correlativas_final": []
+              },
+              {
+                "id": "IA",
+                "nombre": "Inteligencia Artificial",
+                "dictado": 1,
+                "correlativas_cursada": ["Prog1","Algebra","Prog2","Calculo1","Ayda1","Lineal","Proba","Ayda2","Bases1","Fundamentos"],
+                "correlativas_final": []
+              },
+              {
+                "id": "Formulacion",
+                "nombre": "Formulación y Evaluación de Proyectos TICs",
+                "dictado": 2,
+                "correlativas_cursada": ["Prog1","Prog2","Calculo1","POO","Metodologias","Proba","Organizacion"],
+                "correlativas_final": []
+              },
+              {
+                "id": "Etica",
+                "nombre": "Ética y legislación de la práctica profesional",
+                "dictado": 2,
+                "correlativas_cursada": ["Prog1","Prog2","Calculo1","POO","Metodologias","Proba","Organizacion"],
+                "correlativas_final": []
+              }
+
+  ]
+}

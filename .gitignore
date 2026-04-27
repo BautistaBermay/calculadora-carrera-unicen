@@ -1,0 +1,13 @@
+# Python - Archivos temporales y caché
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Datos del usuario (ESTO ES CLAVE PARA TU PRIVACIDAD)
+data/usuarios/*
+!data/usuarios/ejemplo.json
+
+# Streamlit y OS
+.streamlit/
+.DS_Store
