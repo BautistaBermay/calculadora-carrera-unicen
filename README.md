@@ -1,5 +1,7 @@
-# 🎓 Cuánto Me Falta? - Optimizador de Trayectoria Académica
 
+# 🎓 Cuánto Me Falta? - Optimizador de Trayectoria Académica
+[!TIP]
+🚀 Probá la aplicación en vivo aquí
 Herramienta interactiva diseñada para estudiantes de la **UNICEN**, que permite visualizar el progreso de la carrera y proyectar cuatrimestres futuros utilizando **Teoría de Grafos**.
 
 ## 🧠 El Motor Estratégico
