@@ -1,6 +1,6 @@
 
 # 🎓 Cuánto Me Falta? - Optimizador de Trayectoria Académica
-> [!TIP][🚀 Probar la aplicación en vivo]([https://tu-link-de-streamlit.app)](https://cuantomefalta.streamlit.app/)
+[🚀 Probar la aplicación en vivo]([https://tu-link-de-streamlit.app)](https://cuantomefalta.streamlit.app/)
 
 Herramienta interactiva diseñada para estudiantes de la **UNICEN**, que permite visualizar el progreso de la carrera y proyectar cuatrimestres futuros utilizando **Teoría de Grafos**.
 
